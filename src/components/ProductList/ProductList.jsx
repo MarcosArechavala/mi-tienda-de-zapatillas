@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import ProductCard from '../ProductCard/ProductCard';
 import styles from './ProductList.module.css';
@@ -107,6 +108,19 @@ const ProductList = () => {
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
+=======
+import React from 'react';
+import { products } from '../../data/products';
+import ProductCard from '../ProductCard/ProductCard';
+import styles from './ProductList.module.css';
+
+const ProductList = () => {
+  return (
+    <div className={styles.list}>
+      {products.map(product => (
+        <ProductCard key={product.id} product={product} />
+      ))}
+>>>>>>> 62bbe59b2e584ac1350d0fdafd08831c17a0968a
     </div>
   );
 };

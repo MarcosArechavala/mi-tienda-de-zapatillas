@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
+<<<<<<< HEAD
 }
 
 .form {
@@ -41,4 +42,6 @@
 .form button:disabled {
   background-color: #888;
   cursor: not-allowed;
+=======
+>>>>>>> 62bbe59b2e584ac1350d0fdafd08831c17a0968a
 }
