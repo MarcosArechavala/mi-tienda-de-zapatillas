@@ -5,7 +5,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 // URL API 
 const API_URL = 'https://69191f179ccba073ee923377.mockapi.io/products';
 
-// --- Funciones para interactuar con la API ---
+
 
 // Función para OBTENER todos los productos
 const fetchProducts = async () => {

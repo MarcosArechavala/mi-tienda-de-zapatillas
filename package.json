@@ -10,12 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@tanstack/react-query": "^5.90.9",
-=======
->>>>>>> 62bbe59b2e584ac1350d0fdafd08831c17a0968a
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.10.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

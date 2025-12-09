@@ -15,9 +15,25 @@
   list-style: none;
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 .navList a {
   color: white;
   text-decoration: none;
+}
+
+.logoLink {
+  color: white;
+  text-decoration: none;
+}
+
+.logoutButton {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: inherit; 
+  font-family: inherit; 
+  
 }
